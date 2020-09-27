@@ -13,6 +13,18 @@ header{
 	opacity: 1;
 	animation: anim_hd 2s 1;
 }
+.logo{
+	left: 30px;
+	width: 100px;
+	height: 100px;
+	position: absolute;
+}
+.logo img{
+	transition: 1s;
+}
+.logo img:hover{
+  transform: rotate(360deg);	
+}
 .head_div{
 	position: relative;
 	top: 20px;
@@ -118,4 +130,22 @@ h2{
 	100%{
 		transform: scale(1);
 	}
+}
+.selling{
+	height: 3000px;
+}
+.sell_d1, .sell_d{
+	width: 900px;
+	height: 800px;
+	background: #e8e8e8;
+	margin-left: 125px;
+	border-radius: 20px;
+	padding-top: 50px;
+	padding-left: 100px;
+}
+.sell_d{
+	margin-top: 100px;
+}
+.sell_d1 p, .sell_d p{
+	font-size: 20px;
 }
